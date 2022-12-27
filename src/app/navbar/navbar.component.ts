@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {MatDialog, MAT_DIALOG_DATA} from '@angular/material/dialog';import { AddUserComponent } from '../add-user/add-user.component';
+;
 
 @Component({
   selector: 'app-navbar',
@@ -7,7 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dialog: MatDialog) { }
+
+  openAdd() {
+    this.dialog.open(AddUserComponent , {
+      width: '30%'
+    });
+  }
 
   ngOnInit(): void {
   }

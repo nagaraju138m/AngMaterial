@@ -1,0 +1,24 @@
+{
+  "Users": [
+    {
+      "userName": "sujan",
+      "userEmail": "sujan@gmail.com",
+      "date": "2022-12-26T18:30:00.000Z",
+      "UserCate": "Admin",
+      "gender": "Male",
+      "phone": 2343254,
+      "comments": "dszfgsdfsdf",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
