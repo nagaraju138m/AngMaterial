@@ -21,6 +21,11 @@ import {MatRadioModule} from '@angular/material/radio';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatDialogModule} from '@angular/material/dialog';
 import { AddUserComponent } from './add-user/add-user.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import {MatTableModule} from '@angular/material/table';
+import {MatPaginatorModule} from '@angular/material/paginator';
+import {MatSortModule} from '@angular/material/sort';
+
 
 @NgModule({
   imports: [
@@ -40,6 +45,9 @@ import { AddUserComponent } from './add-user/add-user.component';
     MatCheckboxModule,
     MatDialogModule,
     HttpClientModule,
+    MatTableModule,
+    MatPaginatorModule,
+    MatSortModule,
 
   ],
 
@@ -47,7 +55,8 @@ import { AddUserComponent } from './add-user/add-user.component';
     AppComponent,
     RegisterComponent,
     NavbarComponent,
-    AddUserComponent
+    AddUserComponent,
+    HomePageComponent
   ],
 
 

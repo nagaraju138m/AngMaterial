@@ -1,13 +1,13 @@
 {
   "Users": [
     {
-      "userName": "sujan",
-      "userEmail": "sujan@gmail.com",
-      "date": "2022-12-26T18:30:00.000Z",
-      "UserCate": "Admin",
-      "gender": "Male",
-      "phone": 2343254,
-      "comments": "dszfgsdfsdf",
+      "userName": "akil",
+      "userEmail": "mnrsca@abc.com",
+      "date": "2022-12-27T18:30:00.000Z",
+      "UserCate": "General User",
+      "gender": "Female",
+      "phone": 64573473,
+      "comments": "gdgsfg",
       "id": 1
     }
   ],

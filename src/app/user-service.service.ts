@@ -16,5 +16,11 @@ export class UserServiceService {
   getUsers(){
     return this.http.get<any>("http://localhost:3000/Users/");
   }
+  putUser(data:any, id:number){
+    return this.http.put<any>("http://localhost:3000/Users/"+id, data);
+  }
+  deleteuser(id:number){
+    return this.http.delete<any>("http://localhost:3000/Users/"+id);
+  }
 
 }
